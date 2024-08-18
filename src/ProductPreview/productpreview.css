@@ -80,6 +80,12 @@
     }
 }
 
+@media (max-width: 650px) {
+    .product_details p:nth-child(2) {
+        margin: 14px 0;
+    }
+}
+
 .product_details p:nth-child(3) {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -102,6 +108,12 @@
     display: flex;
     align-items: center;
     gap: 19px;
+}
+
+@media (max-width: 650px) {
+    .product_details p:nth-child(4) {
+        margin: 20px 0;
+    }
 }
 
 .product_details p:nth-child(4) span {
