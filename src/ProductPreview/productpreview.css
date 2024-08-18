@@ -85,7 +85,12 @@
     font-size: 14px;
     font-weight: 500;
     color: #6C7289;
-    max-width: 237px;
+}
+
+@media (min-width: 651px) {
+    .product_details p:nth-child(3) {
+        max-width: 237px;
+    }
 }
 
 .product_details p:nth-child(4) {
