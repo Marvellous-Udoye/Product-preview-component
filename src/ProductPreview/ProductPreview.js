@@ -9,6 +9,7 @@ export default function ProductPreview() {
         <div>
           <img
             src={product}
+            alt=''
             width={337.694}
             height={450}
             className='product_image'
